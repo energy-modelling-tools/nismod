@@ -91,7 +91,10 @@ permalink: /
       {% for platform in site.data.social_media %}
         <a href="{{ platform.url }}" class="px-2" style="text-decoration: none !important;">
           {% assign icon = platform.icon | default: "" %}
-          {% if icon contains ".png" or icon contains ".jpg" or icon contains ".jpeg" or icon contains ".svg" %}
+          {% if icon contains "octicon:" %}
+            {% assign oct = icon | remove: "octicon:" %}
+            {% octicon {{ oct }} height:32 class:"logo logo-hover py-3" aria-label:platform.name %}
+          {% elsif icon contains ".png" or icon contains ".jpg" or icon contains ".jpeg" or icon contains ".svg" %}
             <img src="{{ icon | relative_url }}" alt="{{ platform.name }}" style="height:32px;width:32px;object-fit:contain;">
           {% else %}
             <i class="{{ icon }} logo logo-hover py-3" style="font-size: 32px"></i>
