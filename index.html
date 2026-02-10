@@ -90,7 +90,12 @@ permalink: /
     <p class="f2-light text-white">
       {% for platform in site.data.social_media %}
         <a href="{{ platform.url }}" class="px-2" style="text-decoration: none !important;">
-          <i class="{{ platform.icon }} logo logo-hover py-3" style="font-size: 32px"></i>
+          {% assign icon = platform.icon | default: "" %}
+          {% if icon contains ".png" or icon contains ".jpg" or icon contains ".jpeg" or icon contains ".svg" %}
+            <img src="{{ icon | relative_url }}" alt="{{ platform.name }}" style="height:32px;width:32px;object-fit:contain;">
+          {% else %}
+            <i class="{{ icon }} logo logo-hover py-3" style="font-size: 32px"></i>
+          {% endif %}
         </a>
       {% endfor %}
     </p>
