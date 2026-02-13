@@ -7,7 +7,7 @@
 
 # global settings
 title: NISMOD
-logo: "/assets/img/NISMOD.png"
+logo: "/assets/img/logos/NISMOD.svg"
 description: "GitHub helps government build software better, together"
 baseurl: "/nismod"
 permalink: "/stories/:title"
