@@ -38,7 +38,7 @@ permalink: /applications/
     {% for paper in site.data.recommended_reading.recommended_reading %}
     <div class="recommended-reading-item mb-5">
       <h3 class="alt-h3 mb-2">
-        <a href="{{ paper.link }}" target="_blank" style="text-decoration: none;">{{ paper.title }}</a>
+        <a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>
       </h3>
       <p class="text-gray">{{ paper.abstract }}</p>
     </div>
