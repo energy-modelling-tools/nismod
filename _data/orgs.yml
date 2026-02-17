@@ -5,11 +5,6 @@ partners:
     display_name: University of Oxford
     url: https://www.ox.ac.uk/
 
-  - name: itrc
-    logo: /assets/img/partners/ITRC.svg
-    display_name: Infrastructure Transitions Research Consortium (ITRC)
-    url: https://www.itrc.org.uk/
-
   - name: opsis
     logo: /assets/img/partners/OPSIS.png
     display_name: Oxford Programme for Sustainable Infrastructure Systems (OPSIS)
