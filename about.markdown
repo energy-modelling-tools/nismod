@@ -41,7 +41,7 @@ permalink: /about/
     <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">How can you get started?</h2>
     <div class="col-md-12 animate-out mb-2">
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
-        You can get started by exploring <a href="https://nismod.github.io/nismod2/" target="_blank">NISMOD2 documentation</a>, downloading the latest releases from <a href="https://github.com/nismod/nismod2/releases/latest" target="_blank">GitHub</a>, and setting up your Python environment with Miniconda.
+        You can get started by exploring <a href="https://nismod.github.io/nismod2/" target="_blank">NISMOD2 documentation</a>, downloading the latest releases from <a href="https://github.com/nismod/nismod2" target="_blank">GitHub</a>, and setting up your Python environment with Miniconda.
       </p>
     </div>
     <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">How can you contribute?</h2>

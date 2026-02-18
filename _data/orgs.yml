@@ -1,11 +1,11 @@
 # Partner institutions for homepage display
 partners:
   - name: oxford
-    logo: /assets/img/partners/Oxford.png
+    logo: /assets/img/partners/oxford.svg
     display_name: University of Oxford
     url: https://www.ox.ac.uk/
 
   - name: opsis
-    logo: /assets/img/partners/OPSIS.png
+    logo: /assets/img/partners/opsis.svg
     display_name: Oxford Programme for Sustainable Infrastructure Systems (OPSIS)
     url: https://opsis.eci.ox.ac.uk/
