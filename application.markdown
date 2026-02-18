@@ -37,18 +37,46 @@ permalink: /applications/
           <li>Supports climate change, resilience, and sustainable development research.</li>
         </ul>
       </div>
-
-      <div class="application-category">
-        <h3 class="category-title">Specialist Applications</h3>
-        <ul class="application-list">
-          <li><a href="https://nismod.github.io/nismod2/" target="_blank">NISMOD2</a> - Integrated system-of-systems model for UK infrastructure planning.</li>
-          <li><a href="https://global.infrastructureresilience.org/" target="_blank">GRI Risk Viewer</a> - Global data portal for infrastructure risk and resilience analysis.</li>
-          <li><a href="https://github.com/nismod/snkit" target="_blank">snkit</a> - Python library for creating and manipulating spatial network data.</li>
-          <li><a href="https://github.com/nismod/snail" target="_blank">snail</a> - Toolkit for infrastructure risk analysis and loss estimation.</li>
-        </ul>
-      </div>
     </div>
   </div>
+</section>
+
+<section class="container-lg p-responsive py-4 py-md-6 my-lg-6">
+  <div class="text-center mb-5">
+    <h2 class="alt-h2">Specialist Applications</h2>
+  </div>
+
+  <div class="slider-wrapper my-5">
+    <div class="arrow arrow-left" onclick="slideTextPrev()">‹</div>
+
+    <div class="slider-container">
+      <div class="slider" id="textSlider">
+        <div class="slide-card">
+          <h3>NISMOD2</h3>
+          <p><a href="https://nismod.github.io/nismod2/" target="_blank">Integrated system-of-systems model for UK infrastructure planning</a></p>
+        </div>
+
+        <div class="slide-card">
+          <h3>GRI Risk Viewer</h3>
+          <p><a href="https://global.infrastructureresilience.org/" target="_blank">Global data portal for infrastructure risk and resilience analysis</a></p>
+        </div>
+
+        <div class="slide-card">
+          <h3>snkit</h3>
+          <p><a href="https://github.com/nismod/snkit" target="_blank">Python library for creating and manipulating spatial network data</a></p>
+        </div>
+
+        <div class="slide-card">
+          <h3>snail</h3>
+          <p><a href="https://github.com/nismod/snail" target="_blank">Toolkit for infrastructure risk analysis and loss estimation</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow arrow-right" onclick="slideTextNext()">›</div>
+  </div>
+
+  <div class="slider-dots text-center mt-3" id="sliderDots"></div>
 </section>
 
 <!-- Recommended Reading Section -->
