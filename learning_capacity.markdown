@@ -22,6 +22,14 @@ permalink: /learning_capacity/
     <h3 class="alt-h3 mt-4">📦 Starter Data Kits</h3>
     <p><a href="https://zenodo.org/communities/ccg/records?q=%22Infrastructure%20Climate%20Resilience%20Assessment%20Data%20Starter%20Kit%22" target="_blank">Explore Starter Kits on Zenodo →</a></p>
 
+    <div class="mt-3 animate-in">
+      <h3 class="alt-h3 mt-3 animate-in">🛠️ Flatpack Program</h3>
+      <p class="animate-in text-justify">NISMOD Teaching Kit provides learning materials for an introductory course on using NISMOD tools to comprehensively study infrastructure systems analysis, climate risk assessment, and resilience planning by combining academic and practical aspects. It includes editable lecture slides, hands-on exercises, sample learning objectives, and a suggested course timetable.</p>
+      <p class="animate-in">
+        <a href="https://curriculum.climatecompatiblegrowth.com/courses/eb078912-ba07-42b2-85cb-7db262f42096" target="_blank" class="btn btn-outline-primary sky-blue-accent d-block d-sm-inline-block px-1 px-md-3">Open Teaching Kit →</a>
+      </p>
+    </div>
+
     <div class="mt-5">
       <h3 class="alt-h3 text-center">🌍 EMP Events</h3>
       <div class="clearfix gutter-spacious">
