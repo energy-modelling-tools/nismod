@@ -5,27 +5,49 @@ title: Applications
 permalink: /applications/
 ---
 
-<section class="bg-gray-light py-5 fade-in-center">
-  <div class="container-lg p-responsive">
-    <h2 class="alt-h2 mb-4 text-center">Applications of NISMOD</h2>
-    <p class="text-center">‘NISMOD’ is a fundamental building block for a wide range of applications across government, industry, and academia. Several examples include:</p>
+<section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
+  <div class="text-center fade-in-center">
+    <h2 class="alt-h2 mb-4">NISMOD Applications</h2>
+  </div>
 
-    <h3 class="alt-h3 mt-5">Governments</h3>
-    <p>NISMOD has been used to support national-scale infrastructure planning and resilience assessment in the UK and internationally, helping policymakers evaluate future infrastructure pathways under uncertainty.</p>
+  <div class="applications-content text-left">
+    <p class="lead mb-4">NISMOD is a fundamental building block for a wide range of applications across government, industry, and academia. Several examples include:</p>
 
-    <h3 class="alt-h3 mt-5">Industry and Think Tanks</h3>
-    <p>International organizations and research consortia use NISMOD to inform infrastructure investment decisions and assess risks and interdependencies between energy, transport, water, and telecommunications systems.</p>
+    <div class="applications-grid">
+      <div class="application-category">
+        <h3 class="category-title">Governments</h3>
+        <ul class="application-list">
+          <li>Supports national-scale infrastructure planning and resilience assessment in the UK and internationally.</li>
+          <li>Helps policymakers evaluate future infrastructure pathways under uncertainty.</li>
+        </ul>
+      </div>
 
-    <h3 class="alt-h3 mt-5">Academia</h3>
-    <p>Academic researchers employ NISMOD tools to develop and evaluate infrastructure system models that integrate climate change, resilience, and sustainable development perspectives.</p>
+      <div class="application-category">
+        <h3 class="category-title">Industry and Think Tanks</h3>
+        <ul class="application-list">
+          <li>Informs infrastructure investment decisions across multiple sectors.</li>
+          <li>Assesses risks and interdependencies between energy, transport, water, and telecommunications systems.</li>
+        </ul>
+      </div>
 
-    <h3 class="alt-h3 mt-5">Specialist Applications</h3>
-    <ul>
-      <li><a href="https://nismod.github.io/nismod2/" target="_blank">NISMOD2</a> – Integrated system-of-systems model for UK infrastructure planning</li>
-      <li><a href="https://global.infrastructureresilience.org/" target="_blank">GRI Risk Viewer</a> – Global data portal for infrastructure risk and resilience analysis</li>
-      <li><a href="https://github.com/nismod/snkit" target="_blank">snkit</a> – Python library for creating and manipulating spatial network data</li>
-      <li><a href="https://github.com/nismod/snail" target="_blank">snail</a> – Toolkit for infrastructure risk analysis and loss estimation</li>
-    </ul>
+      <div class="application-category">
+        <h3 class="category-title">Academia</h3>
+        <ul class="application-list">
+          <li>Enables development and evaluation of infrastructure system models.</li>
+          <li>Supports climate change, resilience, and sustainable development research.</li>
+        </ul>
+      </div>
+
+      <div class="application-category">
+        <h3 class="category-title">Specialist Applications</h3>
+        <ul class="application-list">
+          <li><a href="https://nismod.github.io/nismod2/" target="_blank">NISMOD2</a> - Integrated system-of-systems model for UK infrastructure planning.</li>
+          <li><a href="https://global.infrastructureresilience.org/" target="_blank">GRI Risk Viewer</a> - Global data portal for infrastructure risk and resilience analysis.</li>
+          <li><a href="https://github.com/nismod/snkit" target="_blank">snkit</a> - Python library for creating and manipulating spatial network data.</li>
+          <li><a href="https://github.com/nismod/snail" target="_blank">snail</a> - Toolkit for infrastructure risk analysis and loss estimation.</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -357,10 +379,11 @@ permalink: /applications/
 // Enhanced Slider Functionality
 let slideIndex = 0;
 const textSlider = document.getElementById("textSlider");
-const textSlides = textSlider.children.length;
 const dotsContainer = document.getElementById("sliderDots");
+const textSlides = textSlider ? textSlider.children.length : 0;
 
 function updateSlider() {
+  if (!textSlider) return;
   textSlider.style.transform = `translateX(-${slideIndex * 100}%)`;
   updateDots();
 }
@@ -376,6 +399,7 @@ function slideTextPrev() {
 }
 
 function createDots() {
+  if (!dotsContainer) return;
   for (let i = 0; i < textSlides; i++) {
     const dot = document.createElement("span");
     dot.classList.add("dot");
@@ -395,16 +419,19 @@ function updateDots() {
 }
 
 // Auto-slide functionality
-let sliderInterval = setInterval(slideTextNext, 5000);
-
-// Pause auto-slide on hover
-textSlider.parentElement.addEventListener("mouseenter", () => {
-  clearInterval(sliderInterval);
-});
-
-textSlider.parentElement.addEventListener("mouseleave", () => {
+let sliderInterval = null;
+if (textSlider && textSlides > 0) {
   sliderInterval = setInterval(slideTextNext, 5000);
-});
+
+  // Pause auto-slide on hover
+  textSlider.parentElement.addEventListener("mouseenter", () => {
+    clearInterval(sliderInterval);
+  });
+
+  textSlider.parentElement.addEventListener("mouseleave", () => {
+    sliderInterval = setInterval(slideTextNext, 5000);
+  });
+}
 
 // Keyboard navigation
 document.addEventListener("keydown", (e) => {
@@ -415,7 +442,9 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// Initialize
-createDots();
-updateSlider();
+// Initialize only when slider markup exists.
+if (textSlider && dotsContainer && textSlides > 0) {
+  createDots();
+  updateSlider();
+}
 </script>
