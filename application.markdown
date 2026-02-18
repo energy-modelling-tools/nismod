@@ -62,13 +62,23 @@ permalink: /applications/
         </div>
 
         <div class="slide-card">
-          <h3>snkit</h3>
-          <p><a href="https://github.com/nismod/snkit" target="_blank">Python library for creating and manipulating spatial network data</a></p>
+          <h3>Nature-based Solutions for Resilient Infrastructure</h3>
+          <p><a href="https://www.eci.ox.ac.uk/research/nature-based-solutions-resilient-infrastructure" target="_blank">Assessing climate risk and quantifying the value of nature-based assets for infrastructure protection</a></p>
         </div>
 
         <div class="slide-card">
-          <h3>snail</h3>
-          <p><a href="https://github.com/nismod/snail" target="_blank">Toolkit for infrastructure risk analysis and loss estimation</a></p>
+          <h3>J-SRAT</h3>
+          <p><a href="https://www.eci.ox.ac.uk/research/j-srat-geospatial-analysis-platform-infrastructure-risk-assessment-and-resilient" target="_blank">Geospatial analysis platform for infrastructure risk assessment and resilient investment prioritisation in Jamaica</a></p>
+        </div>
+
+        <div class="slide-card">
+          <h3>Decision Support Systems for Resilient Strategic Transport Networks</h3>
+          <p><a href="https://www.eci.ox.ac.uk/research/decision-support-systems-resilient-strategic-transport-networks-low-income-countries" target="_blank">Resilient strategic transport networks in low income countries</a></p>
+        </div>
+
+        <div class="slide-card">
+          <h3>African Transport Systems Database</h3>
+          <p><a href="https://www.eci.ox.ac.uk/news/eci-researchers-publish-first-continent-wide-database-africas-transport-systems" target="_blank">First continent-wide database of Africa's transport systems</a></p>
         </div>
       </div>
     </div>
