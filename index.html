@@ -94,7 +94,8 @@ permalink: /
         <a href="{{ platform.url }}" class="px-2 social-link">
           {% assign icon = platform.icon | default: "" %}
           {% if icon contains ".png" or icon contains ".jpg" or icon contains ".jpeg" or icon contains ".svg" %}
-            <img src="{{ icon | relative_url }}" alt="{{ platform.name }}" class="social-icon-img">
+            <img src="{{ icon | relative_url }}" alt="{{ platform.name }}" class="social-icon-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+            <span style="display:none; font-size:16px; color:currentColor;">{{ platform.name }}</span>
           {% else %}
             <i class="{{ icon }} logo logo-hover py-3 social-icon"></i>
           {% endif %}
