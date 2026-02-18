@@ -20,7 +20,7 @@ permalink: /learning_capacity/
     <p><a href="https://global.infrastructureresilience.org/" target="_blank" class="btn btn-outline-primary sky-blue-accent">Open GRI Risk Viewer →</a></p>
 
     <h3 class="alt-h3 mt-4">📦 Starter Data Kits</h3>
-    <p><a href="https://zenodo.org/communities/ccg/records?q=%22Infrastructure%20Climate%20Resilience%20Assessment%20Data%20Starter%20Kit%22" target="_blank">Explore Starter Kits on Zenodo →</a></p>
+    <p><a href="https://zenodo.org/communities/ccg/records?q=%22Infrastructure%20Climate%20Resilience%20Assessment%20Data%20Starter%20Kit%22" target="_blank" class="btn btn-outline-primary sky-blue-accent">Explore Starter Kits on Zenodo →</a></p>
 
     <div class="mt-3 animate-in">
       <h3 class="alt-h3 mt-3 animate-in">🛠️ Flatpack Program</h3>
