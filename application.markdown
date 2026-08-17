@@ -11,31 +11,39 @@ permalink: /applications/
   </div>
 
   <div class="applications-content text-left">
+    <!-- CMS:section id=application_nismod_applications -->
     <p class="lead mb-4">NISMOD is a fundamental building block for a wide range of applications across government, industry, and academia. Several examples include:</p>
+    <!-- /CMS:section -->
 
     <div class="applications-grid">
       <div class="application-category">
         <h3 class="category-title">Governments</h3>
+        <!-- CMS:section id=application_governments -->
         <ul class="application-list">
           <li>Supports national-scale infrastructure planning and resilience assessment in the UK and internationally.</li>
           <li>Helps policymakers evaluate future infrastructure pathways under uncertainty.</li>
         </ul>
+        <!-- /CMS:section -->
       </div>
 
       <div class="application-category">
         <h3 class="category-title">Industry and Think Tanks</h3>
+        <!-- CMS:section id=application_industry_and_think_tanks -->
         <ul class="application-list">
           <li>Informs infrastructure investment decisions across multiple sectors.</li>
           <li>Assesses risks and interdependencies between energy, transport, water, and telecommunications systems.</li>
         </ul>
+        <!-- /CMS:section -->
       </div>
 
       <div class="application-category">
         <h3 class="category-title">Academia</h3>
+        <!-- CMS:section id=application_academia -->
         <ul class="application-list">
           <li>Enables development and evaluation of infrastructure system models.</li>
           <li>Supports climate change, resilience, and sustainable development research.</li>
         </ul>
+        <!-- /CMS:section -->
       </div>
     </div>
   </div>
@@ -53,32 +61,44 @@ permalink: /applications/
       <div class="slider" id="textSlider">
         <div class="slide-card">
           <h3>NISMOD2</h3>
+          <!-- CMS:section id=application_nismod2 -->
           <p><a href="https://nismod.github.io/nismod2/" target="_blank">Integrated system-of-systems model for UK infrastructure planning</a></p>
+          <!-- /CMS:section -->
         </div>
 
         <div class="slide-card">
           <h3>GRI Risk Viewer</h3>
+          <!-- CMS:section id=application_gri_risk_viewer -->
           <p><a href="https://global.infrastructureresilience.org/" target="_blank">Global data portal for infrastructure risk and resilience analysis</a></p>
+          <!-- /CMS:section -->
         </div>
 
         <div class="slide-card">
           <h3>Nature-based Solutions for Resilient Infrastructure</h3>
+          <!-- CMS:section id=application_nature_based_solutions_for_resilient -->
           <p><a href="https://www.eci.ox.ac.uk/research/nature-based-solutions-resilient-infrastructure" target="_blank">Assessing climate risk and quantifying the value of nature-based assets for infrastructure protection</a></p>
+          <!-- /CMS:section -->
         </div>
 
         <div class="slide-card">
           <h3>J-SRAT</h3>
+          <!-- CMS:section id=application_j_srat -->
           <p><a href="https://www.eci.ox.ac.uk/research/j-srat-geospatial-analysis-platform-infrastructure-risk-assessment-and-resilient" target="_blank">Geospatial analysis platform for infrastructure risk assessment and resilient investment prioritisation in Jamaica</a></p>
+          <!-- /CMS:section -->
         </div>
 
         <div class="slide-card">
           <h3>Decision Support Systems for Resilient Strategic Transport Networks</h3>
+          <!-- CMS:section id=application_decision_support_systems_for_resilient -->
           <p><a href="https://www.eci.ox.ac.uk/research/decision-support-systems-resilient-strategic-transport-networks-low-income-countries" target="_blank">Resilient strategic transport networks in low income countries</a></p>
+          <!-- /CMS:section -->
         </div>
 
         <div class="slide-card">
           <h3>African Transport Systems Database</h3>
+          <!-- CMS:section id=application_african_transport_systems_database -->
           <p><a href="https://www.eci.ox.ac.uk/news/eci-researchers-publish-first-continent-wide-database-africas-transport-systems" target="_blank">First continent-wide database of Africa's transport systems</a></p>
+          <!-- /CMS:section -->
         </div>
       </div>
     </div>
@@ -93,7 +113,9 @@ permalink: /applications/
 <section class="bg-white py-5 fade-in-center">
   <div class="container-lg p-responsive">
     <h2 class="alt-h2 mb-4 text-center">Recommended Reading</h2>
+    <!-- CMS:section id=application_recommended_reading -->
     <p class="text-center text-gray mb-5">Explore key publications that demonstrate NISMOD’s use in infrastructure planning, resilience assessment, and climate risk analysis.</p>
+    <!-- /CMS:section -->
 
     {% for paper in site.data.recommended_reading.recommended_reading %}
     <div class="recommended-reading-item mb-5">

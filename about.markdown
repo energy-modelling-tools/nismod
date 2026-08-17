@@ -10,45 +10,59 @@ permalink: /about/
   <h2 class="alt-h3 mb-4">About NISMOD</h2>
   <div class="container-lg p-responsive py-4 py-md-6 ">
     <div class="col-md-12 animate-out mb-2">
+      <!-- CMS:section id=about_about_nismod -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         <strong>NISMOD (National Infrastructure Systems Model)</strong> is a suite of tools and libraries designed for analysing and modelling infrastructure systems. Developed since 2010 through successive research projects - beginning with the Infrastructure Transitions Research Consortium (ITRC) - it enables strategic planning and resilience assessment for infrastructure networks.
       </p>
+      <!-- /CMS:section -->
     </div>
     <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">What does it do?</h2>
     <div class="col-md-12 animate-out mb-2">
+      <!-- CMS:section id=about_what_does_it_do -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         NISMOD provides tools, frameworks, and packages to model and analyse infrastructure systems, focusing on long-term strategic planning, sustainable development, and resilience assessment.
       </p>
+      <!-- /CMS:section -->
     </div>
     <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">What is the scope of the model?</h2>
     <div class="col-md-12 animate-out mb-2">
+      <!-- CMS:section id=about_what_is_the_scope_of -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         NISMOD supports long-term strategic infrastructure planning, infrastructure for sustainable development, and risk and resilience assessment across interconnected infrastructure systems.
       </p>
+      <!-- /CMS:section -->
     </div>
     <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">Who is the target audience?</h2>
     <div class="col-md-12 animate-out mb-2">
+      <!-- CMS:section id=about_who_is_the_target_audience -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         Researchers, policymakers, governments, and private sector organizations use NISMOD to support data-driven infrastructure planning and decision-making.
       </p>
+      <!-- /CMS:section -->
     </div>
     <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">What outcomes can you obtain?</h2>
     <div class="col-md-12 animate-out mb-2">
+      <!-- CMS:section id=about_what_outcomes_can_you_obtain -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         Key outcomes include spatial models of infrastructure networks, impact assessment and resilience analysis, and comprehensive risk assessments for interconnected systems.
       </p>
+      <!-- /CMS:section -->
     </div>
     <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">How can you get started?</h2>
     <div class="col-md-12 animate-out mb-2">
+      <!-- CMS:section id=about_how_can_you_get_started -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         You can get started by exploring <a href="https://nismod.github.io/nismod2/" target="_blank">NISMOD2 documentation</a>, downloading the latest releases from <a href="https://github.com/nismod/nismod2" target="_blank">GitHub</a>, and setting up your Python environment with Miniconda.
       </p>
+      <!-- /CMS:section -->
     </div>
     <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">How can you contribute?</h2>
     <div class="col-md-12 animate-out mb-2">
+      <!-- CMS:section id=about_how_can_you_contribute -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         Contributions are welcome across the NISMOD ecosystem, including <a href="https://github.com/nismod/snkit" target="_blank">snkit</a>, <a href="https://github.com/nismod/snail" target="_blank">snail</a>, and <a href="https://github.com/nismod/open-gira" target="_blank">open-gira</a>. Visit the <a href="https://github.com/nismod" target="_blank">NISMOD GitHub organization</a> to get involved.
       </p>
+      <!-- /CMS:section -->
     </div>
   </div>
 </div>

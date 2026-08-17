@@ -12,11 +12,15 @@ permalink: /learning_capacity/
     </div>
 
     <h3 class="alt-h3 mt-3">🎓 Open University Course on Infrastructure and Climate Resilience</h3>
+    <!-- CMS:section id=learning_capacity_open_university_course_on_infrastructure -->
     <p>This course introduces infrastructure systems and climate risk analysis using NISMOD tools. It includes modules on sustainable development, climate resilience, and nature-based solutions.</p>
+    <!-- /CMS:section -->
     <p><a href="https://www.open.edu/openlearncreate/course/view.php?id=7243#tabs-2" target="_blank" class="btn btn-outline-primary sky-blue-accent">Access Course →</a></p>
 
     <h3 class="alt-h3 mt-4">🛰️ GRI Risk Viewer</h3>
+    <!-- CMS:section id=learning_capacity_gri_risk_viewer -->
     <p>The Global Resilience Index (GRI) Risk Viewer is a web portal that visualizes climate and infrastructure risk globally and allows download of NISMOD data starter kits.</p>
+    <!-- /CMS:section -->
     <p><a href="https://global.infrastructureresilience.org/" target="_blank" class="btn btn-outline-primary sky-blue-accent">Open GRI Risk Viewer →</a></p>
 
     <h3 class="alt-h3 mt-4">📦 Starter Data Kits</h3>
@@ -28,7 +32,9 @@ permalink: /learning_capacity/
           <strong>🛠️ Flatpack Program</strong>
         </a>
       </h3>
+      <!-- CMS:section id=learning_capacity_flatpack_program -->
       <p class="animate-in text-justify">NISMOD Teaching Kit provides learning materials for an introductory course on using NISMOD tools to comprehensively study infrastructure systems analysis, climate risk assessment, and resilience planning by combining academic and practical aspects. It includes editable lecture slides, hands-on exercises, sample learning objectives, and a suggested course timetable.</p>
+      <!-- /CMS:section -->
       <p class="animate-in">
         <a href="https://curriculum.climatecompatiblegrowth.com/courses/eb078912-ba07-42b2-85cb-7db262f42096" target="_blank" class="btn btn-outline-primary sky-blue-accent d-block d-sm-inline-block px-1 px-md-3">Open Teaching Kit →</a>
       </p>
