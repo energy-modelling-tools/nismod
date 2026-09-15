@@ -15,7 +15,8 @@ permalink: /learning_capacity/
     <!-- CMS:section id=learning_capacity_open_university_course_on_infrastructure -->
     <p>This course introduces infrastructure systems and climate risk analysis using NISMOD tools. It includes modules on sustainable development, climate resilience, and nature-based solutions.</p>
     <!-- /CMS:section -->
-    <p><a href="https://www.open.edu/openlearncreate/course/view.php?id=7243#tabs-2" target="_blank" class="btn btn-outline-primary sky-blue-accent">Access Course →</a></p>
+    <p><a href="https://www.open.edu/openlearncreate/course/view.php?id=17734" target="_blank" class="btn btn-outline-primary sky-blue-accent">Access Course →</a></p>
+    <p><a href="https://climatecompatiblegrowth.com/international-partnerships/capacity-building/openlearn-courses/" target="_blank" class="btn btn-outline-primary sky-blue-accent">See all courses</a></p>
 
     <h3 class="alt-h3 mt-4">🛰️ GRI Risk Viewer</h3>
     <!-- CMS:section id=learning_capacity_gri_risk_viewer -->

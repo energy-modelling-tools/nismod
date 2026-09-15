@@ -52,7 +52,7 @@ permalink: /about/
     <div class="col-md-12 animate-out mb-2">
       <!-- CMS:section id=about_how_can_you_get_started -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
-        You can get started by exploring <a href="https://nismod.github.io/nismod2/" target="_blank">NISMOD2 documentation</a>, downloading the latest releases from <a href="https://github.com/nismod/nismod2" target="_blank">GitHub</a>, and setting up your Python environment with Miniconda.
+        You can get started by exploring the <a href="https://github.com/nismod" target="_blank">NISMOD GitHub organization</a> which contains the currently-active models, libraries, and analysis projects.
       </p>
       <!-- /CMS:section -->
     </div>
@@ -73,39 +73,21 @@ permalink: /about/
     <div class="icon-link-item">
       <a href="https://github.com/nismod" target="_blank">
         <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="80" height="80" alt="GitHub" />
-        <h3 class="aboutpage-subtitle text-primary">GitHub Repository</h3>
+        <h3 class="aboutpage-subtitle text-primary">GitHub Organisation</h3>
       </a>
     </div>
-
     <div class="icon-link-item">
-      <a href="https://nismod.github.io/nismod2/" target="_blank">
-        <img src="/assets/img/Rtdicon.png" width="80" height="80" alt="Documentation icon" />
-        <h3 class="aboutpage-subtitle text-primary">Model Documentation</h3>
+      <a href="https://nismod.github.io/snail" target="_blank">
+        <img src="/nismod/assets/img/snail.svg" width="80" height="80" alt="snail" />
+        <h3 class="aboutpage-subtitle text-primary">snail docs</h3>
+      </a>
+    </div>
+    <div class="icon-link-item">
+      <a href="https://snkit.readthedocs.io/en/latest/" target="_blank">
+        <img src="/nismod/assets/img/snkit.png" width="80" height="80" alt="snkit" />
+        <h3 class="aboutpage-subtitle text-primary">snkit docs</h3>
       </a>
     </div>
   </div>
 </div>
 </section>
-
-<style>
-.fade-in-center {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease forwards;
-}
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.alt-h3 {
-  font-size: 1.15rem;
-}
-@media (min-width: 768px) {
-  .row.justify-content-center > .col-md-4 {
-    margin-bottom: 2rem;
-  }
-}
-</style>
-

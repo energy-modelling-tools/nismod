@@ -1,13 +1,14 @@
- - title: "Hall, J. W. et al. (2016) ‘National infrastructure assessment: A system-of-systems approach’, Proceedings of the Institution of Civil Engineers – Civil Engineering."
-   link: "https://doi.org/10.1680/jcien.16.00018"
-   abstract: "Introduces the NISMOD framework for national infrastructure assessment and the integrated modelling of UK infrastructure systems."
+recommended_reading:
+  - title: "Hall, J. W. et al. (2016) ‘National infrastructure assessment: A system-of-systems approach’, Proceedings of the Institution of Civil Engineers – Civil Engineering."
+    link: "https://doi.org/10.1680/jcien.16.00018"
+    abstract: "Introduces the NISMOD framework for national infrastructure assessment and the integrated modelling of UK infrastructure systems."
 
- - title: "Thacker, S. et al. (2017) ‘Infrastructure interdependencies and climate risk’, Nature Climate Change."
-   link: "https://doi.org/10.1038/nclimate3273"
-   abstract: "Explores how NISMOD supports understanding of climate-related risks across interconnected infrastructure systems."
+  - title: "Thacker, S. et al. (2017) ‘Infrastructure interdependencies and climate risk’, Nature Climate Change."
+    link: "https://doi.org/10.1038/nclimate3273"
+    abstract: "Explores how NISMOD supports understanding of climate-related risks across interconnected infrastructure systems."
 
- - title: "Pant, R. et al. (2020) ‘A framework for national infrastructure risk assessment’, Risk Analysis."
-   link: "https://doi.org/10.1111/risa.13585"
-   abstract: "Presents a national-scale methodology for assessing risks to infrastructure systems, using the NISMOD model suite."
+  - title: "Pant, R. et al. (2020) ‘A framework for national infrastructure risk assessment’, Risk Analysis."
+    link: "https://doi.org/10.1111/risa.13585"
+    abstract: "Presents a national-scale methodology for assessing risks to infrastructure systems, using the NISMOD model suite."
 
-   google_scholar: "https://scholar.google.com/citations?user=NISMOD"
+google_scholar: "https://scholar.google.com/citations?user=IPB7Xw0AAAAJ"

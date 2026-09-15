@@ -117,7 +117,7 @@ permalink: /applications/
     <p class="text-center text-gray mb-5">Explore key publications that demonstrate NISMOD’s use in infrastructure planning, resilience assessment, and climate risk analysis.</p>
     <!-- /CMS:section -->
 
-    {% for paper in site.data.recommended_reading.recommended_reading %}
+    {% for paper in site.data.publications.recommended_reading %}
     <div class="recommended-reading-item mb-5">
       <h3 class="alt-h3 mb-2">
         <a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>
@@ -127,7 +127,7 @@ permalink: /applications/
     {% endfor %}
 
     <div class="text-center mt-4">
-      <a href="{{ site.data.recommended_reading.google_scholar }}" target="_blank" class="btn btn-outline-primary sky-blue-accent">View All on Google Scholar →</a>
+      <a href="{{ site.data.publications.google_scholar }}" target="_blank" class="btn btn-outline-primary sky-blue-accent">View All on Google Scholar →</a>
     </div>
   </div>
 </section>
@@ -383,23 +383,23 @@ permalink: /applications/
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .application-category {
     padding: 1.5rem;
   }
-  
+
   .arrow-left {
     left: -30px;
   }
-  
+
   .arrow-right {
     right: -30px;
   }
-  
+
   .slide-card {
     padding: 2rem 1.5rem;
   }
-  
+
   .publication-item {
     padding: 1.5rem;
   }
@@ -410,11 +410,11 @@ permalink: /applications/
     font-size: 2rem;
     padding: 0.3rem 0.8rem;
   }
-  
+
   .arrow-left {
     left: -25px;
   }
-  
+
   .arrow-right {
     right: -25px;
   }
